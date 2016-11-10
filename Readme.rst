@@ -15,7 +15,7 @@ Includes:
 - Font Awesome Icons | Resources
 
 
-- jQuery | Resourc
+- jQuery | Resource
 
 
 - Animate.css | DataSourceController icon array - NodeyTypeMixin - SelectBoxEditor
