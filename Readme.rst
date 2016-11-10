@@ -2,18 +2,19 @@
 OS Neos Bootstrap Theme
 -----------------------
 
-This is are Neos - Application Package
+This is a Neos - Application Package
 
-Provides:
+Includes:
 
-- Bootstrap 3 NodeTypes
-- Bootstrap 3 Grids
-- Bootstrap 3 resources
+- Bootstrap 3 | NodeTypes
+- Bootstrap 3 | Grids
+- Bootstrap 3 | Resources
+---
+- Font Awesome Icons | DataSourceController - NodeyTypeMixin - SelectBoxEditor
+- Font Awesome Icons | Resources
+---
+- jQuery | Resource
+---
+- Animate.css | DataSourceController icon array - NodeyTypeMixin - SelectBoxEditor
+- Animate.css | Resource
 
-- Font Awesome Icons include with DataSourceController
-- Font Awesome resources
-
-- jQuery resource
-
-- Animate.css include with DataSourceController
-- Animate.css resource
