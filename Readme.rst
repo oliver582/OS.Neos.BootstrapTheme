@@ -9,12 +9,17 @@ Includes:
 - Bootstrap 3 | NodeTypes
 - Bootstrap 3 | Grids
 - Bootstrap 3 | Resources
----
+
+
 - Font Awesome Icons | DataSourceController - NodeyTypeMixin - SelectBoxEditor
 - Font Awesome Icons | Resources
----
-- jQuery | Resource
----
+
+
+- jQuery | Resourc
+
+
 - Animate.css | DataSourceController icon array - NodeyTypeMixin - SelectBoxEditor
 - Animate.css | Resource
+
+
 
