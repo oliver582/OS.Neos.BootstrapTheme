@@ -1,0 +1,15 @@
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+{namespace os=OS\Neos\BootstrapTheme\ViewHelpers}
+
+<f:if condition="{iteration} > 0">
+    <f:then>
+        <div class="{os:gridLayout(layout: '{layout}', columnNo:'{iteration}')}">
+            <ts:render path="columnContent"/>
+        </div>
+    </f:then>
+    <f:else>
+        <div class="col-xs-12">
+            <ts:render path="columnContent"/>
+        </div>
+    </f:else>
+</f:if>

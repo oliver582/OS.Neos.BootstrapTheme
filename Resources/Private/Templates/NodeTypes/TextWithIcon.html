@@ -1,0 +1,9 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+
+<div class="text-icon wow animated {fadeIn}">
+    <span class="icon-ar icon-ar-lg"><i class="fa {icon}"></i></span>
+    <div class="text-icon-content">
+        <h3 class="no-margin">{neos:contentElement.editable(property: 'title')}</h3>
+        <p>{neos:contentElement.editable(property: 'text')}</p>
+    </div>
+</div>

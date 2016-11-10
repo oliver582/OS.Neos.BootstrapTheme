@@ -1,0 +1,35 @@
+'OS.Neos.BootstrapTheme:FontawesomeIconMixin':
+  abstract: TRUE
+  properties:
+    'icon':
+      type: string
+      ui:
+        label: 'Icon'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'icon'
+          editor: 'Content/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            dataSourceIdentifier: 'os-font-awesome-icons'
+            allowEmpty: TRUE
+            placeholder: 'Icon Auswahl'
+            minimumResultsForSearch: 1
+
+
+'OS.Neos.BootstrapTheme:FadeInMixin':
+  abstract: TRUE
+  properties:
+    'fadeIn':
+      type: string
+      defaultValue: 'fadeInUp'
+      ui:
+        label: 'Animation Settings'
+        inlineEditable: False
+        inspector:
+          group: 'animation'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            dataSourceIdentifier: 'os-animate-css'
+            allowEmpty: TRUE
+            placeholder: 'Animation Auswahl'
+            minimumResultsForSearch: 1

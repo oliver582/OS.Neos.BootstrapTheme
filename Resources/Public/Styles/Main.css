@@ -1,0 +1,116 @@
+/* ---------------------------------------------------- */
+/* General */
+/* ---------------------------------------------------- */
+body {
+
+}
+#main-wrap {
+
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+
+
+/* ---------------------------------------------------- */
+/* Fonts */
+/* ---------------------------------------------------- */
+h3 {
+    font-size: 1.7em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 120%;
+    color: #2aa9e0;
+    margin: 20px 0 17px 0;
+}
+
+
+/* ---------------------------------------------------- */
+/* Header */
+/* ---------------------------------------------------- */
+#header-top {
+    background-image: linear-gradient(to top, #f0f0f0, #f4f4f4);
+    min-height: 100px;
+}
+.navbar-brand {
+    height: 0px;
+    padding: 5px 15px;
+}
+.navbar-brand img {
+    padding-top: 5px;
+}
+
+
+/* ---------------------------------------------------- */
+/* Navigation */
+/* ---------------------------------------------------- */
+.navbar {
+    border-radius: 0;
+    padding: 0rem 1rem;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    padding: 14px 22px;
+}
+.navbar-nav>li {
+    float: left;
+    margin-right: 1px;
+}
+.navbar-nav li:hover {
+    background-color: #2aa9e0;
+}
+.navbar-nav .current {
+    background-color: #2aa9e0;
+}
+
+
+
+/* ---------------------------------------------------- */
+/* Content */
+/* ---------------------------------------------------- */
+#main-content {
+    margin-top: 30px;
+}
+
+
+
+
+/* ---------------------------------------------------- */
+/* Test wiith Icon */
+/* ---------------------------------------------------- */
+.text-icon {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.icon-ar.icon-ar-lg {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 2.2;
+}
+.text-icon .icon-ar {
+    float: left;
+    margin-top: 5px;
+}
+.icon-ar {
+    background-color: #2aa9e0;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    text-align: center;
+}
+.text-icon-content {
+    padding-left: 70px;
+    font-size: .9em;
+}
+
+
+
+/* ---------------------------------------------------- */
+/* Footer */
+/* ---------------------------------------------------- */

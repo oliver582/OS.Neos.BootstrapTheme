@@ -1,0 +1,36 @@
+#
+# Menu EXAMPLE
+# This must be in your Site Package!!!
+#
+
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+
+<f:render section="itemList" arguments="{items: items, site: site}" />
+
+<f:section name="itemList">
+
+    <ul class="nav navbar-nav">
+        <f:for each="{items}" as="item" iteration="menuItemIterator">
+            <li class="{item.state}">
+                <neos:link.node node="{item.node}">{item.label}</neos:link.node>
+                <f:if condition="{item.subItems}">
+                    <f:if condition="{0: item.state} != {0: 'normal'}">
+                        <f:render section="subList" arguments="{items: item.subItems}" />
+                    </f:if>
+                </f:if>
+            </li>
+        </f:for>
+    </ul>
+
+</f:section>
+
+<f:section name="subList">
+    <ul class="second-level-sub-navigation nav nav-justified visible-xs">
+        <f:for each="{items}" as="item">
+            <li class="{item.state}">
+                <neos:link.node node="{item.node}">{item.label}</neos:link.node>
+            </li>
+        </f:for>
+    </ul>
+</f:section>

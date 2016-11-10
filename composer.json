@@ -1,0 +1,18 @@
+{
+    "description": "Add description here",
+    "type": "neos-package",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "name": "os/neos-bootstraptheme",
+    "autoload": {
+        "psr-0": {
+            "OS\\Neos\\BootstrapTheme": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "OS.Neos.BootstrapTheme"
+        }
+    }
+}
