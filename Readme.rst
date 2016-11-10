@@ -2,9 +2,11 @@
 OS Neos Bootstrap Theme
 -----------------------
 
-This is are Neos Application Package provides:
+This is are Neos - Application Package
 
-- Bootstrap 3  NodeTypes
+Provides:
+
+- Bootstrap 3 NodeTypes
 - Bootstrap 3 Grids
 - Bootstrap 3 resources
 
@@ -13,4 +15,5 @@ This is are Neos Application Package provides:
 
 - jQuery resource
 
+- Animate.css include with DataSourceController
 - Animate.css resource
