@@ -24,7 +24,7 @@
       type: string
       defaultValue: 'fadeInUp'
       ui:
-        label: 'Animation Settings'
+        label: 'Animation'
         inlineEditable: False
         inspector:
           group: 'animation'
@@ -34,3 +34,18 @@
             allowEmpty: TRUE
             placeholder: 'Animation Auswahl'
             minimumResultsForSearch: 1
+
+
+'OS.Neos.BootstrapTheme:AnimationDelayMixin':
+  abstract: TRUE
+  properties:
+    'delay':
+      type: integer
+      defaultValue: '0'
+      ui:
+        label: 'Verzögerung'
+        inlineEditable: False
+        inspector:
+          group: 'animation'
+      validation:
+          'TYPO3.Neos/Validation/IntegerValidator': []

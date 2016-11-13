@@ -3,6 +3,7 @@
     'TYPO3.Neos:Content': TRUE
     'OS.Neos.BootstrapTheme:FontawesomeIconMixin': TRUE
     'OS.Neos.BootstrapTheme:FadeInMixin': TRUE
+    'OS.Neos.BootstrapTheme:AnimationDelayMixin': TRUE
   ui:
     label: 'Text mit Icon'
     group: 'os-basic'
@@ -11,10 +12,10 @@
     inspector:
       groups:
         'icon':
-          label: 'Icon'
+          label: 'Icon Auswahl'
           position: 10
         'animation':
-          label: 'Animation'
+          label: 'Animations Einstellungen'
           position: 20
   properties:
     'title':
