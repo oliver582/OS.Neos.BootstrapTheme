@@ -9,7 +9,7 @@ class AnimateDataSource extends AbstractDataSource {
     /**
      * @var string
      */
-    static protected $identifier = 'mc-animate-css';
+    static protected $identifier = 'os-animate-css';
 
     /**
      * Get data

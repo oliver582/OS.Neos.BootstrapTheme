@@ -13,29 +13,19 @@
         'icon':
           label: 'Icon'
           position: 10
-        'basic':
-          label: 'Textinhalt'
-          position: 20
         'animation':
           label: 'Animation'
           position: 20
   properties:
     'title':
       type: string
+      defaultValue: 'Überschrift'
       ui:
-        label: 'Headline'
         inlineEditable: TRUE
-        inspector:
-          group: 'basic'
     'text':
       type: string
+      defaultValue: 'Text Eingabe...'
       ui:
-        label: 'basic'
         inlineEditable: TRUE
-        inspector:
-          group: 'text'
-          editor: 'TYPO3.Neos/Inspector/Editors/TextAreaEditor'
-          editorOptions:
-            rows: 7
 
 

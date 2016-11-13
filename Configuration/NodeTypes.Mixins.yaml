@@ -3,6 +3,7 @@
   properties:
     'icon':
       type: string
+      defaultValue: 'fa-chrome'
       ui:
         label: 'Icon'
         reloadIfChanged: TRUE
