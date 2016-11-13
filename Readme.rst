@@ -11,14 +11,14 @@ Includes:
 - Bootstrap 3 | Resources
 
 
-- Font Awesome Icons | DataSourceController - NodeyTypeMixin - SelectBoxEditor
+- Font Awesome Icons | DataSource - NodeyTypeMixin - SelectBoxEditor
 - Font Awesome Icons | Resources
 
 
 - jQuery | Resource
 
 
-- Animate.css | DataSourceController icon array - NodeyTypeMixin - SelectBoxEditor
+- Animate.css | DataSource - NodeyTypeMixin - SelectBoxEditor
 - Animate.css | Resource
 
 
