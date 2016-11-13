@@ -170,3 +170,69 @@
           group: 'color'
           editorOptions:
             placeholder: 'HEX-Wert: #fff'
+
+
+'OS.Neos.BootstrapTheme:Well':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Well'
+    group: 'os-basic'
+    icon: 'icon-square-o'
+    position: 500
+    inspector:
+      groups:
+        'wellSize':
+          label: 'Größe Auswählen'
+          position: 10
+        'color':
+          label: 'Eigene Farben Definieren'
+          position: 20
+  properties:
+    'text':
+      type: string
+      defaultValue: 'Inhalt'
+      ui:
+        inlineEditable: TRUE
+    'wellSize':
+      type: 'string'
+      ui:
+        label: 'Größe'
+        inlineEditable: False
+        inspector:
+          group: 'wellSize'
+          editor: Content/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: 'Default...'
+            values:
+              well-lg:
+                label: 'LG'
+              well-sm:
+                label: 'SM'
+    'wellColor':
+      type: 'string'
+      ui:
+        label: 'Well - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #333'
+    'borderColor':
+      type: 'string'
+      ui:
+        label: 'Border - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #000'
+    'fontColor':
+      type: 'string'
+      ui:
+        label: 'Schrift - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #000'
