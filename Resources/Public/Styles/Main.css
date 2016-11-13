@@ -95,6 +95,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-nav .current {
     background-color: #2aa9e0;
 }
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
+    margin-top:0px
+}
 
 
 
