@@ -1,4 +1,4 @@
-'OS.Neos.BootstrapTheme:FontawesomeIconMixin':
+'OS.Neos.BootstrapTheme:FontAwesomeIconMixin':
   abstract: TRUE
   properties:
     'icon':
@@ -17,7 +17,7 @@
             minimumResultsForSearch: 1
 
 
-'OS.Neos.BootstrapTheme:FadeInMixin':
+'OS.Neos.BootstrapTheme:AnimateCssMixin':
   abstract: TRUE
   properties:
     'fadeIn':
@@ -36,7 +36,7 @@
             minimumResultsForSearch: 1
 
 
-'OS.Neos.BootstrapTheme:AnimationDelayMixin':
+'OS.Neos.BootstrapTheme:DelayMixin':
   abstract: TRUE
   properties:
     'delay':

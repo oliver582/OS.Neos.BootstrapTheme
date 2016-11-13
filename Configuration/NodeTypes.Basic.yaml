@@ -1,9 +1,9 @@
 'OS.Neos.BootstrapTheme:TextWithIcon':
   superTypes:
     'TYPO3.Neos:Content': TRUE
-    'OS.Neos.BootstrapTheme:FontawesomeIconMixin': TRUE
-    'OS.Neos.BootstrapTheme:FadeInMixin': TRUE
-    'OS.Neos.BootstrapTheme:AnimationDelayMixin': TRUE
+    'OS.Neos.BootstrapTheme:FontAwesomeIconMixin': TRUE
+    'OS.Neos.BootstrapTheme:AnimateCssMixin': TRUE
+    'OS.Neos.BootstrapTheme:DelayMixin': TRUE
   ui:
     label: 'Text mit Icon'
     group: 'os-basic'
@@ -30,3 +30,46 @@
         inlineEditable: TRUE
 
 
+'OS.Neos.BootstrapTheme:PanelWithHeading':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Panel mit Kopfbereich'
+    group: 'os-basic'
+    icon: 'icon-square-o'
+    position: 500
+    inspector:
+      groups:
+        'color':
+          label: 'Farb - Einstellungen'
+          position: 20
+  properties:
+    'title':
+      type: string
+      defaultValue: 'Überschrift'
+      ui:
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    'text':
+      type: string
+      defaultValue: 'Inhalt'
+      ui:
+        inlineEditable: TRUE
+    'panelColor':
+      type: 'string'
+      ui:
+        label: 'Panel - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'Farbe in HEX-Wert: #000'
+    'fontColor':
+      type: 'string'
+      ui:
+        label: 'Schrift - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'Farbe in HEX-Wert: #fff'
