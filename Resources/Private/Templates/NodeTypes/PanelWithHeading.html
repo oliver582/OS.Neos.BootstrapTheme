@@ -1,8 +1,8 @@
 {namespace neos=TYPO3\Neos\ViewHelpers}
 
-<div class="panel panel-default" style="border-color:{panelColor};">
-    <div class="panel-heading" style="background-color:{panelColor};">
-        <h3 class="panel-title" style="color:{fontColor};">{neos:contentElement.editable(property: 'title')}</h3>
+<div class="panel panel-default" <f:if condition="{panelColor}"><f:then>style="border-color:{panelColor};"</f:then></f:if> >
+    <div class="panel-heading" <f:if condition="{panelColor}"><f:then>style="background-color:{panelColor};"</f:then></f:if> >
+        <h3 class="panel-title" <f:if condition="{fontColor}"><f:then>style="color:{fontColor};"</f:then></f:if> >{neos:contentElement.editable(property: 'title')}</h3>
     </div>
     <div class="panel-body">
         {neos:contentElement.editable(property: 'text')}

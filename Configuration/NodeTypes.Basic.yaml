@@ -63,7 +63,7 @@
         inspector:
           group: 'color'
           editorOptions:
-            placeholder: 'Farbe in HEX-Wert: #000'
+            placeholder: 'HEX-Wert: #000'
     'fontColor':
       type: 'string'
       ui:
@@ -72,4 +72,4 @@
         inspector:
           group: 'color'
           editorOptions:
-            placeholder: 'Farbe in HEX-Wert: #fff'
+            placeholder: 'HEX-Wert: #fff'
