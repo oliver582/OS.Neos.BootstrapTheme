@@ -33,7 +33,7 @@ Copy to composer.json
 
 Composer command
 ```
-      composer require "os/neos-bootstraptheme:dev-master“
+      composer require "os/neos-bootstraptheme"
 ```
 
 Use
