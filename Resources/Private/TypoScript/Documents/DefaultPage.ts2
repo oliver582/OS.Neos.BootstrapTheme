@@ -1,10 +1,11 @@
 #
 # TypoScript DefaultPage EXAMPLE
 # This must be in your Site Package!!!
+# Change all "Vendor.Site" to your Site Package Name
 #
 
 menu = Menu {
-    templatePath = 'resource://OS.Neos.BootstrapTheme/Private/Templates/TypoScriptObjects/Menu.html'
+    templatePath = 'resource://Vendor.Site/Private/Templates/TypoScriptObjects/Menu.html'
     entryLevel = 1
     maximumLevels = 4
 }
@@ -12,22 +13,22 @@ menu = Menu {
 page = TYPO3.Neos:Page {
     head {
         metadata = TYPO3.TypoScript:Template {
-            templatePath = 'resource://OS.Neos.BootstrapTheme/Private/Templates/Page/Default.html'
+            templatePath = 'resource://Vendor.Site/Private/Templates/Page/Default.html'
             sectionName = 'metadata'
         }
         stylesheets.site = TYPO3.TypoScript:Template {
-            templatePath = 'resource://OS.Neos.BootstrapTheme/Private/Templates/Page/Default.html'
+            templatePath = 'resource://Vendor.Site/Private/Templates/Page/Default.html'
             sectionName = 'stylesheets'
         }
 
         javascripts.site = TYPO3.TypoScript:Template {
-            templatePath = 'resource://OS.Neos.BootstrapTheme/Private/Templates/Page/Default.html'
+            templatePath = 'resource://Vendor.Site/Private/Templates/Page/Default.html'
             sectionName = 'headScripts'
         }
     }
 
     body {
-        templatePath = 'resource://OS.Neos.BootstrapTheme/Private/Templates/Page/Default.html'
+        templatePath = 'resource://Vendor.Site/Private/Templates/Page/Default.html'
         sectionName = 'body'
         parts {
             menu < menu
@@ -42,7 +43,7 @@ page = TYPO3.Neos:Page {
         }
 
         javascripts.site = TYPO3.TypoScript:Template {
-            templatePath = 'resource://OS.Neos.BootstrapTheme/Private/Templates/Page/Default.html'
+            templatePath = 'resource://Vendor.Site/Private/Templates/Page/Default.html'
             sectionName = 'bodyScripts'
         }
     }
