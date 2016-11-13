@@ -73,3 +73,48 @@
           group: 'color'
           editorOptions:
             placeholder: 'HEX-Wert: #fff'
+
+
+'OS.Neos.BootstrapTheme:PanelWithFooter':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Panel mit Fußbereich'
+    group: 'os-basic'
+    icon: 'icon-square-o'
+    position: 500
+    inspector:
+      groups:
+        'color':
+          label: 'Farb - Einstellungen'
+          position: 20
+  properties:
+    'title':
+      type: string
+      defaultValue: 'Überschrift'
+      ui:
+        inlineEditable: TRUE
+        reloadIfChanged: TRUE
+    'text':
+      type: string
+      defaultValue: 'Inhalt'
+      ui:
+        inlineEditable: TRUE
+    'panelColor':
+      type: 'string'
+      ui:
+        label: 'Panel - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #000'
+    'fontColor':
+      type: 'string'
+      ui:
+        label: 'Schrift - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #fff'
