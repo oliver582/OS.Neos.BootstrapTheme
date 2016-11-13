@@ -40,8 +40,11 @@
     position: 500
     inspector:
       groups:
+        'panelStyle':
+          label: 'Varianten Auswahl'
+          position: 10
         'color':
-          label: 'Farb - Einstellungen'
+          label: 'Eigene Farben Definieren'
           position: 20
   properties:
     'title':
@@ -55,6 +58,29 @@
       defaultValue: 'Inhalt'
       ui:
         inlineEditable: TRUE
+    'panelStyle':
+      type: 'string'
+      ui:
+        label: 'Variante'
+        inlineEditable: False
+        inspector:
+          group: 'panelStyle'
+          editor: Content/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: 'Default...'
+            values:
+              panel-default:
+                label: 'Default'
+              panel-primary:
+                label: 'Primary'
+              panel-success:
+                label: 'Success'
+              panel-info:
+                label: 'Info'
+              panel-warning:
+                label: 'Warning'
+              panel-danger:
+                label: 'Danger'
     'panelColor':
       type: 'string'
       ui:
@@ -85,8 +111,11 @@
     position: 500
     inspector:
       groups:
+        'panelStyle':
+          label: 'Varianten Auswahl'
+          position: 10
         'color':
-          label: 'Farb - Einstellungen'
+          label: 'Eigene Farben Definieren'
           position: 20
   properties:
     'title':
@@ -100,6 +129,29 @@
       defaultValue: 'Inhalt'
       ui:
         inlineEditable: TRUE
+    'panelStyle':
+      type: 'string'
+      ui:
+        label: 'Variante'
+        inlineEditable: False
+        inspector:
+          group: 'panelStyle'
+          editor: Content/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: 'Default...'
+            values:
+              panel-default:
+                label: 'Default'
+              panel-primary:
+                label: 'Primary'
+              panel-success:
+                label: 'Success'
+              panel-info:
+                label: 'Info'
+              panel-warning:
+                label: 'Warning'
+              panel-danger:
+                label: 'Danger'
     'panelColor':
       type: 'string'
       ui:
