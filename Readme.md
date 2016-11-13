@@ -44,6 +44,10 @@ Copy sample files to your clean Site Package
       Resources/Private/TypoScript/Root.ts2
 ```
 
+Change in Default.html all "Vendor.Site" to your Site Package Name
+```
+      Resources/Private/Templates/Page/Default.hmtl
+```
     
 
 
