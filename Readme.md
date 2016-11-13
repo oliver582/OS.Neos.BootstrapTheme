@@ -38,15 +38,15 @@ Composer command
 
 Copy sample files to your clean Site Package
 ```
-      Resources/Private/Templates/Page/Default.hmtl
-      Resources/Private/Templates/TypoScriptObjects/Menu.hmtl
+      Resources/Private/Templates/Page/Default.html
+      Resources/Private/Templates/TypoScriptObjects/Menu.html
       Resources/Private/TypoScript/Documents/DefaultPage.ts2
       Resources/Private/TypoScript/Root.ts2
 ```
 
 Change in Default.html all "Vendor.Site" to your Site Package Name
 ```
-      Resources/Private/Templates/Page/Default.hmtl
+      Resources/Private/Templates/Page/Default.html
 ```
     
 
