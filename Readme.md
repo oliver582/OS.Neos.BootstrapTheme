@@ -36,19 +36,11 @@ Composer command
       composer require "os/neos-bootstraptheme:dev-master“
 ```
 
-Copy sample files to your clean Site Package
+Use
 ```
-      Resources/Private/Templates/Page/Default.html
-      Resources/Private/Templates/TypoScriptObjects/Menu.html
-      Resources/Private/TypoScript/Documents/DefaultPage.ts2
-      Resources/Private/TypoScript/Root.ts2
+      include: resource://OS.Neos.BootstrapTheme/Private/TypoScript/Root.ts2
 ```
-
-Change in Default.html all "Vendor.Site" to your Site Package Name
-```
-      Resources/Private/Templates/Page/Default.html
-```
-    
+in your Root.ts2    
 
 
 
