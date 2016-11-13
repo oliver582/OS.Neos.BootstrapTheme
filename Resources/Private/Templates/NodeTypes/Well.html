@@ -1,5 +1,5 @@
 {namespace neos=TYPO3\Neos\ViewHelpers}
 
 <div class="well <f:if condition="{wellSize}"><f:then>{wellSize}</f:then><f:else>well-lg</f:else></f:if> " <f:if condition="{wellColor}"><f:then>style="background-color:{wellColor}; border-color:{borderColor}; color: {fontColor};"</f:then></f:if> >
-    {neos:contentElement.editable(property: 'text')}
+    {neos:contentElement.editable(property: 'text', tag: 'p')}
 </div>

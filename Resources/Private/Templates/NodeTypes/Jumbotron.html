@@ -1,0 +1,7 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+
+<div class="jumbotron" <f:if condition="{jumbotronColor}"><f:then>style="background-color:{jumbotronColor}; color: {fontColor};"</f:then></f:if>>
+{neos:contentElement.editable(property: 'title')}
+    {neos:contentElement.editable(property: 'text', tag: 'p')}
+    <p><a class="btn <f:if condition="{buttonStyle}"><f:then>{buttonStyle}</f:then><f:else>btn-primary</f:else></f:if> <f:if condition="{buttonSize}"><f:then>{buttonSize}</f:then><f:else>btn-lg</f:else></f:if> " href="{buttonLink}" role="button">{buttonLabel}</a></p>
+</div>

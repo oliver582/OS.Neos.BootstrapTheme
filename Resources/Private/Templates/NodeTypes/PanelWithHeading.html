@@ -5,6 +5,6 @@
         <h3 class="panel-title" <f:if condition="{fontColor}"><f:then>style="color:{fontColor};"</f:then></f:if> >{neos:contentElement.editable(property: 'title')}</h3>
     </div>
     <div class="panel-body">
-        {neos:contentElement.editable(property: 'text')}
+        {neos:contentElement.editable(property: 'text', tag: 'p')}
     </div>
 </div>

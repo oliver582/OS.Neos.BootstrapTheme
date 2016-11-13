@@ -236,3 +236,108 @@
           group: 'color'
           editorOptions:
             placeholder: 'HEX-Wert: #000'
+
+
+'OS.Neos.BootstrapTheme:Jumbotron':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Jumbotron'
+    group: 'os-basic'
+    icon: 'icon-square-o'
+    position: 500
+    inspector:
+      groups:
+        'button':
+          label: 'Button Optionen'
+          position: 10
+        'color':
+          label: 'Jumbotron - Farben'
+          position: 20
+  properties:
+    'title':
+      type: string
+      defaultValue: '<h1>Überschrift</h1>'
+      ui:
+        inlineEditable: TRUE
+    'text':
+      type: string
+      defaultValue: 'Inhalt'
+      ui:
+        inlineEditable: TRUE
+    'buttonLabel':
+      type: 'string'
+      defaultValue: 'Lern more'
+      ui:
+        label: 'Button Beschriftung'
+        inlineEditable: False
+        inspector:
+          group: 'button'
+          editorOptions:
+            placeholder: 'Button Text...'
+    'buttonLink':
+      type: string
+      ui:
+        label: 'Button Link'
+        inlineEditable: TRUE
+        inspector:
+          group: 'button'
+          editor: 'TYPO3.Neos/Inspector/Editors/LinkEditor'
+    'buttonSize':
+      type: 'string'
+      ui:
+        label: 'Größe'
+        inlineEditable: False
+        inspector:
+          group: 'button'
+          editor: Content/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: 'Default...'
+            values:
+              btn-lg:
+                label: 'LG'
+              btn-sm:
+                label: 'SM'
+              btn-xs:
+                label: 'XS'
+    'buttonStyle':
+      type: 'string'
+      ui:
+        label: 'Variante'
+        inlineEditable: False
+        inspector:
+          group: 'button'
+          editor: Content/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: 'Default...'
+            values:
+              btn-default:
+                label: 'Default'
+              btn-primary:
+                label: 'Primary'
+              btn-success:
+                label: 'Success'
+              btn-info:
+                label: 'Info'
+              btn-warning:
+                label: 'Warning'
+              btn-danger:
+                label: 'Danger'
+    'jumbotronColor':
+      type: 'string'
+      ui:
+        label: 'Jumbotron - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #000'
+    'fontColor':
+      type: 'string'
+      ui:
+        label: 'Schrift - Farbe'
+        inlineEditable: False
+        inspector:
+          group: 'color'
+          editorOptions:
+            placeholder: 'HEX-Wert: #000'
