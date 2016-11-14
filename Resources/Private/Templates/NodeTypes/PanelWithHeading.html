@@ -1,8 +1,8 @@
 {namespace neos=TYPO3\Neos\ViewHelpers}
 
-<div class="panel <f:if condition="{panelStyle}"><f:then>{panelStyle}</f:then><f:else>panel-default</f:else></f:if> " <f:if condition="{panelColor}"><f:then>style="border-color:{panelColor};"</f:then></f:if> >
+<div class="panel wow animated {fadeIn} animation-delay-{delay} <f:if condition="{panelStyle}"><f:then>{panelStyle}</f:then><f:else>panel-default</f:else></f:if> " <f:if condition="{panelColor}"><f:then>style="border-color:{panelColor};"</f:then></f:if> >
     <div class="panel-heading" <f:if condition="{panelColor}"><f:then>style="background-color:{panelColor};"</f:then></f:if> >
-        <h3 class="panel-title" <f:if condition="{fontColor}"><f:then>style="color:{fontColor};"</f:then></f:if> >{neos:contentElement.editable(property: 'title')}</h3>
+        <h3 class="panel-title" <f:if condition="{fontColor}"><f:then>style="color:{fontColor};"</f:then></f:if> >{neos:contentElement.editable(property: 'title', tag: 'span')}</h3>
     </div>
     <div class="panel-body">
         {neos:contentElement.editable(property: 'text', tag: 'p')}
