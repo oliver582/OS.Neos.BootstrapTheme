@@ -23,7 +23,7 @@ Includes:
 
 ---
 
-Quickstart
+# Quickstart
 ----------------------
 
 Copy to composer.json
@@ -45,6 +45,10 @@ Use
 in your Root.ts2 
 
 ---
+
+# Youtube Video
+
+[![Video](https://cloud.githubusercontent.com/assets/22447597/20276944/df7086f2-aa9e-11e6-845c-1b0e3babc5fc.png)](https://www.youtube.com/watch?v=LHBz3_DD3V8 "Video")
 
 # Screenshots
 
