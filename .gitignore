@@ -1,2 +1,5 @@
 .DS_Store
 .idea/
+config.rb
+.sass-cache/
+*.css.map

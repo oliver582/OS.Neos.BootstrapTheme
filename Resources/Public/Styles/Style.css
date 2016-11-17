@@ -1,0 +1,629 @@
+/* ---------------------------------------------------- */
+/* General */
+/* ---------------------------------------------------- */
+/* line 10, ../Sass/Style.sass */
+.no-margin {
+  margin: 0px !important;
+}
+
+/* ---------------------------------------------------- */
+/* Fonts */
+/* ---------------------------------------------------- */
+/* line 18, ../Sass/Style.sass */
+h3 {
+  font-size: 1.7em;
+}
+
+/* line 21, ../Sass/Style.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 120%;
+  color: #2aa9e0;
+  margin: 20px 0 17px 0;
+}
+
+/* ---------------------------------------------------- */
+/* Header */
+/* ---------------------------------------------------- */
+/* line 33, ../Sass/Style.sass */
+#header-top {
+  background-image: linear-gradient(to top, #f0f0f0, #f4f4f4);
+  min-height: 100px;
+}
+
+/* line 37, ../Sass/Style.sass */
+.navbar-brand {
+  height: 0px;
+  padding: 5px 15px;
+}
+
+/* line 41, ../Sass/Style.sass */
+.navbar-brand img {
+  padding-top: 5px;
+}
+
+/* ---------------------------------------------------- */
+/* Navigation */
+/* ---------------------------------------------------- */
+/* line 49, ../Sass/Style.sass */
+.navbar {
+  border-radius: 0;
+  padding: 0rem 1rem;
+}
+
+/* line 53, ../Sass/Style.sass */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  padding: 14px 22px;
+}
+
+/* line 57, ../Sass/Style.sass */
+.navbar-nav li:hover {
+  background-color: #2aa9e0;
+}
+
+/* line 60, ../Sass/Style.sass */
+.navbar-nav .current {
+  background-color: #2aa9e0;
+}
+
+/* line 63, ../Sass/Style.sass */
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+  margin-top: 0px;
+}
+
+/* ---------------------------------------------------- */
+/* Content */
+/* ---------------------------------------------------- */
+/* line 73, ../Sass/Style.sass */
+#main-content {
+  margin-top: 30px;
+}
+
+/* ---------------------------------------------------- */
+/* Test wiith Icon */
+/* ---------------------------------------------------- */
+/* line 83, ../Sass/Style.sass */
+.text-icon {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+/* line 87, ../Sass/Style.sass */
+.icon-ar.icon-ar-lg {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  line-height: 2.2;
+}
+
+/* line 93, ../Sass/Style.sass */
+.text-icon .icon-ar {
+  float: left;
+  margin-top: 5px;
+}
+
+/* line 97, ../Sass/Style.sass */
+.icon-ar {
+  background-color: #2aa9e0;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  text-align: center;
+}
+
+/* line 105, ../Sass/Style.sass */
+.text-icon-content {
+  padding-left: 70px;
+  font-size: 0.9em;
+}
+
+/* ---------------------------------------------------- */
+/* Panel */
+/* ---------------------------------------------------- */
+/* line 114, ../Sass/Style.sass */
+.panel-primary {
+  border-color: #2aa9e0;
+}
+
+/* line 117, ../Sass/Style.sass */
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #2aa9e0;
+  border-color: #2aa9e0;
+}
+
+/* line 122, ../Sass/Style.sass */
+.panel-primary > .panel-footer {
+  color: #fff;
+  background-color: #2aa9e0;
+  border-color: #2aa9e0;
+}
+
+/* line 128, ../Sass/Style.sass */
+.panel-success > .panel-footer {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+/* line 133, ../Sass/Style.sass */
+.panel-info > .panel-footer {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+/* line 138, ../Sass/Style.sass */
+.panel-warning > .panel-footer {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+/* line 143, ../Sass/Style.sass */
+.panel-danger > .panel-footer {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+/* ---------------------------------------------------- */
+/* Footer */
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/* Animations Delay */
+/* ---------------------------------------------------- */
+/* line 4, ../Sass/_animations.sass */
+.animation-delay-1 {
+  -webkit-animation-delay: 0.1s !important;
+  -moz-animation-delay: 0.1s !important;
+  -ms-animation-delay: 0.1s !important;
+  -o-animation-delay: 0.1s !important;
+  animation-delay: 0.1s !important;
+}
+
+/* line 11, ../Sass/_animations.sass */
+.animation-delay-2 {
+  -webkit-animation-delay: 0.2s !important;
+  -moz-animation-delay: 0.2s !important;
+  -ms-animation-delay: 0.2s !important;
+  -o-animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important;
+}
+
+/* line 18, ../Sass/_animations.sass */
+.animation-delay-3 {
+  -webkit-animation-delay: 0.3s !important;
+  -moz-animation-delay: 0.3s !important;
+  -ms-animation-delay: 0.3s !important;
+  -o-animation-delay: 0.3s !important;
+  animation-delay: 0.3s !important;
+}
+
+/* line 25, ../Sass/_animations.sass */
+.animation-delay-4 {
+  -webkit-animation-delay: 0.4s !important;
+  -moz-animation-delay: 0.4s !important;
+  -ms-animation-delay: 0.4s !important;
+  -o-animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important;
+}
+
+/* line 32, ../Sass/_animations.sass */
+.animation-delay-5 {
+  -webkit-animation-delay: 0.5s !important;
+  -moz-animation-delay: 0.5s !important;
+  -ms-animation-delay: 0.5s !important;
+  -o-animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important;
+}
+
+/* line 39, ../Sass/_animations.sass */
+.animation-delay-6 {
+  -webkit-animation-delay: 0.6s !important;
+  -moz-animation-delay: 0.6s !important;
+  -ms-animation-delay: 0.6s !important;
+  -o-animation-delay: 0.6s !important;
+  animation-delay: 0.6s !important;
+}
+
+/* line 46, ../Sass/_animations.sass */
+.animation-delay-7 {
+  -webkit-animation-delay: 0.7s !important;
+  -moz-animation-delay: 0.7s !important;
+  -ms-animation-delay: 0.7s !important;
+  -o-animation-delay: 0.7s !important;
+  animation-delay: 0.7s !important;
+}
+
+/* line 53, ../Sass/_animations.sass */
+.animation-delay-8 {
+  -webkit-animation-delay: 0.8s !important;
+  -moz-animation-delay: 0.8s !important;
+  -ms-animation-delay: 0.8s !important;
+  -o-animation-delay: 0.8s !important;
+  animation-delay: 0.8s !important;
+}
+
+/* line 60, ../Sass/_animations.sass */
+.animation-delay-9 {
+  -webkit-animation-delay: 0.9s !important;
+  -moz-animation-delay: 0.9s !important;
+  -ms-animation-delay: 0.9s !important;
+  -o-animation-delay: 0.9s !important;
+  animation-delay: 0.9s !important;
+}
+
+/* line 67, ../Sass/_animations.sass */
+.animation-delay-10 {
+  -webkit-animation-delay: 1s !important;
+  -moz-animation-delay: 1s !important;
+  -ms-animation-delay: 1s !important;
+  -o-animation-delay: 1s !important;
+  animation-delay: 1s !important;
+}
+
+/* line 74, ../Sass/_animations.sass */
+.animation-delay-11 {
+  -webkit-animation-delay: 1.1s !important;
+  -moz-animation-delay: 1.1s !important;
+  -ms-animation-delay: 1.1s !important;
+  -o-animation-delay: 1.1s !important;
+  animation-delay: 1.1s !important;
+}
+
+/* line 81, ../Sass/_animations.sass */
+.animation-delay-12 {
+  -webkit-animation-delay: 1.2s !important;
+  -moz-animation-delay: 1.2s !important;
+  -ms-animation-delay: 1.2s !important;
+  -o-animation-delay: 1.2s !important;
+  animation-delay: 1.2s !important;
+}
+
+/* line 88, ../Sass/_animations.sass */
+.animation-delay-13 {
+  -webkit-animation-delay: 1.3s !important;
+  -moz-animation-delay: 1.3s !important;
+  -ms-animation-delay: 1.3s !important;
+  -o-animation-delay: 1.3s !important;
+  animation-delay: 1.3s !important;
+}
+
+/* line 95, ../Sass/_animations.sass */
+.animation-delay-14 {
+  -webkit-animation-delay: 1.4s !important;
+  -moz-animation-delay: 1.4s !important;
+  -ms-animation-delay: 1.4s !important;
+  -o-animation-delay: 1.4s !important;
+  animation-delay: 1.4s !important;
+}
+
+/* line 102, ../Sass/_animations.sass */
+.animation-delay-15 {
+  -webkit-animation-delay: 1.5s !important;
+  -moz-animation-delay: 1.5s !important;
+  -ms-animation-delay: 1.5s !important;
+  -o-animation-delay: 1.5s !important;
+  animation-delay: 1.5s !important;
+}
+
+/* line 109, ../Sass/_animations.sass */
+.animation-delay-16 {
+  -webkit-animation-delay: 1.6s !important;
+  -moz-animation-delay: 1.6s !important;
+  -ms-animation-delay: 1.6s !important;
+  -o-animation-delay: 1.6s !important;
+  animation-delay: 1.6s !important;
+}
+
+/* line 116, ../Sass/_animations.sass */
+.animation-delay-17 {
+  -webkit-animation-delay: 1.7s !important;
+  -moz-animation-delay: 1.7s !important;
+  -ms-animation-delay: 1.7s !important;
+  -o-animation-delay: 1.7s !important;
+  animation-delay: 1.7s !important;
+}
+
+/* line 123, ../Sass/_animations.sass */
+.animation-delay-18 {
+  -webkit-animation-delay: 1.8s !important;
+  -moz-animation-delay: 1.8s !important;
+  -ms-animation-delay: 1.8s !important;
+  -o-animation-delay: 1.8s !important;
+  animation-delay: 1.8s !important;
+}
+
+/* line 130, ../Sass/_animations.sass */
+.animation-delay-19 {
+  -webkit-animation-delay: 1.9s !important;
+  -moz-animation-delay: 1.9s !important;
+  -ms-animation-delay: 1.9s !important;
+  -o-animation-delay: 1.9s !important;
+  animation-delay: 1.9s !important;
+}
+
+/* line 137, ../Sass/_animations.sass */
+.animation-delay-20 {
+  -webkit-animation-delay: 2s !important;
+  -moz-animation-delay: 2s !important;
+  -ms-animation-delay: 2s !important;
+  -o-animation-delay: 2s !important;
+  animation-delay: 2s !important;
+}
+
+/* line 144, ../Sass/_animations.sass */
+.animation-delay-21 {
+  -webkit-animation-delay: 2.1s !important;
+  -moz-animation-delay: 2.1s !important;
+  -ms-animation-delay: 2.1s !important;
+  -o-animation-delay: 2.1s !important;
+  animation-delay: 2.1s !important;
+}
+
+/* line 151, ../Sass/_animations.sass */
+.animation-delay-22 {
+  -webkit-animation-delay: 2.2s !important;
+  -moz-animation-delay: 2.2s !important;
+  -ms-animation-delay: 2.2s !important;
+  -o-animation-delay: 2.2s !important;
+  animation-delay: 2.2s !important;
+}
+
+/* line 158, ../Sass/_animations.sass */
+.animation-delay-23 {
+  -webkit-animation-delay: 2.3s !important;
+  -moz-animation-delay: 2.3s !important;
+  -ms-animation-delay: 2.3s !important;
+  -o-animation-delay: 2.3s !important;
+  animation-delay: 2.3s !important;
+}
+
+/* line 165, ../Sass/_animations.sass */
+.animation-delay-24 {
+  -webkit-animation-delay: 2.4s !important;
+  -moz-animation-delay: 2.4s !important;
+  -ms-animation-delay: 2.4s !important;
+  -o-animation-delay: 2.4s !important;
+  animation-delay: 2.4s !important;
+}
+
+/* line 172, ../Sass/_animations.sass */
+.animation-delay-25 {
+  -webkit-animation-delay: 2.5s !important;
+  -moz-animation-delay: 2.5s !important;
+  -ms-animation-delay: 2.5s !important;
+  -o-animation-delay: 2.5s !important;
+  animation-delay: 2.5s !important;
+}
+
+/* line 179, ../Sass/_animations.sass */
+.animation-delay-26 {
+  -webkit-animation-delay: 2.6s !important;
+  -moz-animation-delay: 2.6s !important;
+  -ms-animation-delay: 2.6s !important;
+  -o-animation-delay: 2.6s !important;
+  animation-delay: 2.6s !important;
+}
+
+/* line 186, ../Sass/_animations.sass */
+.animation-delay-27 {
+  -webkit-animation-delay: 2.6s !important;
+  -moz-animation-delay: 2.6s !important;
+  -ms-animation-delay: 2.6s !important;
+  -o-animation-delay: 2.6s !important;
+  animation-delay: 2.6s !important;
+}
+
+/* line 193, ../Sass/_animations.sass */
+.animation-delay-28 {
+  -webkit-animation-delay: 2.8s !important;
+  -moz-animation-delay: 2.8s !important;
+  -ms-animation-delay: 2.8s !important;
+  -o-animation-delay: 2.8s !important;
+  animation-delay: 2.8s !important;
+}
+
+/* line 200, ../Sass/_animations.sass */
+.animation-delay-29 {
+  -webkit-animation-delay: 2.9s !important;
+  -moz-animation-delay: 2.9s !important;
+  -ms-animation-delay: 2.9s !important;
+  -o-animation-delay: 2.9s !important;
+  animation-delay: 2.9s !important;
+}
+
+/* line 207, ../Sass/_animations.sass */
+.animation-delay-30 {
+  -webkit-animation-delay: 3s !important;
+  -moz-animation-delay: 3s !important;
+  -ms-animation-delay: 3s !important;
+  -o-animation-delay: 3s !important;
+  animation-delay: 3s !important;
+}
+
+/* line 214, ../Sass/_animations.sass */
+.animation-delay-40 {
+  -webkit-animation-delay: 4s !important;
+  -moz-animation-delay: 4s !important;
+  -ms-animation-delay: 4s !important;
+  -o-animation-delay: 4s !important;
+  animation-delay: 4s !important;
+}
+
+/* line 221, ../Sass/_animations.sass */
+.animation-delay-45 {
+  -webkit-animation-delay: 4.5s !important;
+  -moz-animation-delay: 4.5s !important;
+  -ms-animation-delay: 4.5s !important;
+  -o-animation-delay: 4.5s !important;
+  animation-delay: 4.5s !important;
+}
+
+/* ---------------------------------------------------- */
+/* Container/Column distance */
+/* ---------------------------------------------------- */
+/* line 4, ../Sass/_distances.sass */
+.top-5 {
+  margin-top: 5px !important;
+}
+
+/* line 6, ../Sass/_distances.sass */
+.top-15 {
+  margin-top: 15px !important;
+}
+
+/* line 8, ../Sass/_distances.sass */
+.top-25 {
+  margin-top: 25px !important;
+}
+
+/* line 10, ../Sass/_distances.sass */
+.top-35 {
+  margin-top: 35px !important;
+}
+
+/* line 12, ../Sass/_distances.sass */
+.top-45 {
+  margin-top: 45px !important;
+}
+
+/* line 14, ../Sass/_distances.sass */
+.top-55 {
+  margin-top: 55px !important;
+}
+
+/* line 16, ../Sass/_distances.sass */
+.top-65 {
+  margin-top: 65px !important;
+}
+
+/* line 18, ../Sass/_distances.sass */
+.top-75 {
+  margin-top: 75px !important;
+}
+
+/* line 20, ../Sass/_distances.sass */
+.top-85 {
+  margin-top: 85px !important;
+}
+
+/* line 22, ../Sass/_distances.sass */
+.top-95 {
+  margin-top: 95px !important;
+}
+
+/* line 24, ../Sass/_distances.sass */
+.top-105 {
+  margin-top: 105px !important;
+}
+
+/* line 26, ../Sass/_distances.sass */
+.top-115 {
+  margin-top: 115px !important;
+}
+
+/* line 28, ../Sass/_distances.sass */
+.top-125 {
+  margin-top: 125px !important;
+}
+
+/* line 30, ../Sass/_distances.sass */
+.top-135 {
+  margin-top: 135px !important;
+}
+
+/* line 32, ../Sass/_distances.sass */
+.top-145 {
+  margin-top: 145px !important;
+}
+
+/* line 34, ../Sass/_distances.sass */
+.top-155 {
+  margin-top: 155px !important;
+}
+
+/* line 37, ../Sass/_distances.sass */
+.bottom-5 {
+  margin-bottom: 5px !important;
+}
+
+/* line 39, ../Sass/_distances.sass */
+.bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+/* line 41, ../Sass/_distances.sass */
+.bottom-25 {
+  margin-bottom: 25px !important;
+}
+
+/* line 43, ../Sass/_distances.sass */
+.bottom-35 {
+  margin-bottom: 35px !important;
+}
+
+/* line 45, ../Sass/_distances.sass */
+.bottom-45 {
+  margin-bottom: 45px !important;
+}
+
+/* line 47, ../Sass/_distances.sass */
+.bottom-55 {
+  margin-bottom: 55px !important;
+}
+
+/* line 49, ../Sass/_distances.sass */
+.bottom-65 {
+  margin-bottom: 65px !important;
+}
+
+/* line 51, ../Sass/_distances.sass */
+.bottom-75 {
+  margin-bottom: 75px !important;
+}
+
+/* line 53, ../Sass/_distances.sass */
+.bottom-85 {
+  margin-bottom: 85px !important;
+}
+
+/* line 55, ../Sass/_distances.sass */
+.bottom-95 {
+  margin-bottom: 95px !important;
+}
+
+/* line 57, ../Sass/_distances.sass */
+.bottom-105 {
+  margin-bottom: 105px !important;
+}
+
+/* line 59, ../Sass/_distances.sass */
+.bottom-115 {
+  margin-bottom: 115px !important;
+}
+
+/* line 61, ../Sass/_distances.sass */
+.bottom-125 {
+  margin-bottom: 125px !important;
+}
+
+/* line 63, ../Sass/_distances.sass */
+.bottom-135 {
+  margin-bottom: 135px !important;
+}
+
+/* line 65, ../Sass/_distances.sass */
+.bottom-145 {
+  margin-bottom: 145px !important;
+}
+
+/* line 67, ../Sass/_distances.sass */
+.bottom-155 {
+  margin-bottom: 155px !important;
+}

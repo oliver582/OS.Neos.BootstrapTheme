@@ -22,7 +22,6 @@
   properties:
     'fadeIn':
       type: string
-      defaultValue: 'fadeInUp'
       ui:
         label: 'Animation'
         inlineEditable: False
