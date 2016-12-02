@@ -375,3 +375,51 @@
           group: 'color'
           editorOptions:
             placeholder: 'HEX-Wert: #000'
+
+
+
+'OS.Neos.BootstrapTheme:Progressbar':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+    'OS.Neos.BootstrapTheme:AnimateCssMixin': TRUE
+    'OS.Neos.BootstrapTheme:DelayMixin': TRUE
+  ui:
+    label: 'Progressbar'
+    group: 'os-basic'
+    icon: 'icon-bar-chart'
+    position: 500
+    inspector:
+      groups:
+        'general':
+          label: 'Progressbar'
+          position: 10
+        'basic':
+          label: 'Text / Inhalt'
+          position: 20
+        'animation':
+          label: 'Animation'
+          position: 30
+  properties:
+    'progressValue':
+      type: string
+      ui:
+        label: 'Progressbar % Angabe'
+        inlineEditable: False
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'general'
+    'progressSize':
+      type: 'string'
+      defaultValue: 'progress-lg'
+      ui:
+        label: 'basic'
+        inlineEditable: FALSE
+        inspector:
+          group: 'general'
+    'text':
+      type: string
+      ui:
+        label: 'Text'
+        inlineEditable: TRUE
+        inspector:
+          group: 'basic'

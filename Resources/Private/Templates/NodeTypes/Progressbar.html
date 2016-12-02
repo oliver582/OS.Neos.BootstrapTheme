@@ -1,0 +1,7 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+
+<div class="progress {progressSize} animated wow {fadeIn} animation-delay-{delay}">
+    <div class="progress-bar" role="progressbar" aria-valuenow="{progressValue}" aria-valuemin="0" aria-valuemax="100" style="width: {progressValue}%;">
+        {neos:contentElement.editable(property: 'text')}
+    </div>
+</div>

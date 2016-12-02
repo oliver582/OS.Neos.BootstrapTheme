@@ -1,0 +1,35 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace media=TYPO3\Media\ViewHelpers}
+{namespace osb=OS\Neos\BootstrapTheme\ViewHelpers}
+
+<div id="keyvisual" style=" background-position: 50% 50%;background-size: cover;height: 280px;{image->osb:imageUriIfExists(asBackgroundCss:true, fallback:'http://os-media-one.local/_Resources/Persistent/39a9d7e60172997a51459728e3cf6e815eb7cff5/Fotolia_114306114_Subscription_L.jpg')}" >
+    <div class="second-keyvisual"></div>
+</div>
+
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY2 = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn2 = 170,
+                    header2 = document.querySelector(".first-header");
+            if (distanceY2 > shrinkOn2) {
+                classie.add(header2,"first-header-out");
+            } else {
+                if (classie.has(header2,"first-header-out")) {
+                    classie.remove(header2,"first-header-out");
+                }
+            }
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 180,
+                    header = document.querySelector(".main-header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"main-header-in");
+            } else {
+                if (classie.has(header,"main-header-in")) {
+                    classie.remove(header,"main-header-in");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>

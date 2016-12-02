@@ -2,19 +2,48 @@
 {namespace media=TYPO3\Media\ViewHelpers}
 {namespace osb=OS\Neos\BootstrapTheme\ViewHelpers}
 
-
-<div id="keyvisual" style=" background-position: 50% 50%;background-size: cover;height: 100vH;{image->osb:imageUriIfExists(asBackgroundCss:true, fallback:'http://getbootstrap.com/assets/img/devices.png')}" >
+<div id="keyvisual" style=" background-position: 50% 50%;background-size: cover;height: 100vH;{image->osb:imageUriIfExists(asBackgroundCss:true, fallback:'http://os-media-one.local/_Resources/Persistent/39a9d7e60172997a51459728e3cf6e815eb7cff5/Fotolia_114306114_Subscription_L.jpg')}" >
     <div class="main-keyvisual">
-        <div class="" style="padding-top: 35vH;">
+        <div class="" style="padding-top: 30vH;">
             <div>
                 <h1 style="font-size: 60px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-6 animated">Responsive Webdesign</h1>
-                <h2 style="font-size: 28px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-12 animated">Websites, Portale, Web Apps</h2>
+                <h2 style="font-size: 28px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-12 animated">Webseiten, Portale, Web Apps</h2>
+                <h2 style="font-size: 28px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-14 animated">Onlineshop, PIM - MAM</h2>
                 <h2 style="font-size: 32px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-18 animated">Individuale Webentwicklung</h2>
-                <br>
-                <h3 style="font-size: 20px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-24 animated">Verpassen Sie nicht den Zug und springen Sie jetzt auf!</h3>
+                <br><br><br>
+                <h3 style="font-size: 22px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-24 animated">Verpassen Sie nicht den Zug und springen Sie jetzt auf!</h3>
+                <h3 style="font-size: 26px; color: #fff; text-align: center;" class="wow fadeIn animation-delay-28 animated">Wir helfen Ihnen dabei</h3>
                 <br><br><br><br><br><br><br>
                 <div class="icon-scroll wow fadeIn animation-delay-30 animated"></div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 570,
+                    header = document.querySelector(".main-header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"main-header-in");
+            } else {
+                if (classie.has(header,"main-header-in")) {
+                    classie.remove(header,"main-header-in");
+                }
+            }
+            var distanceY2 = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn2 = 630,
+                    header2 = document.querySelector(".first-header");
+            if (distanceY2 > shrinkOn2) {
+                classie.add(header2,"first-header-out");
+            } else {
+                if (classie.has(header2,"first-header-out")) {
+                    classie.remove(header2,"first-header-out");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>

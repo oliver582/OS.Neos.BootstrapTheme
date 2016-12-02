@@ -2,7 +2,44 @@
   superTypes:
     'TYPO3.Neos:Content': TRUE
   ui:
-    label: 'Bild mit HTML'
+    label: 'Startseite - Keyvisual'
+    group: 'os-basic'
+    icon: 'icon-list-alt'
+    position: 500
+    inspector:
+      groups:
+        'images':
+          label: 'Bild'
+          position: 10
+        'html':
+          label: 'HTML'
+          position: 20
+  properties:
+    'image':
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Keyvisual'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'images'
+    'htmlEditor':
+      type: 'string'
+      ui:
+        label: 'Markdown'
+        inspector:
+          group: 'html'
+          editor: 'TYPO3.Neos/Inspector/Editors/CodeEditor'
+          editorOptions:
+            buttonLabel: 'Edit Markdown'
+            highlightingMode: 'text/plain'
+
+
+
+'OS.Neos.BootstrapTheme:KeyvisualCustomSmall':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+  ui:
+    label: 'Unterseiten - Keyvisual'
     group: 'os-basic'
     icon: 'icon-list-alt'
     position: 500

@@ -4,5 +4,5 @@
 
 
 include: NodeTypes/**/*.ts2
-include: Documents/**/*.ts2
+# include: Documents/**/*.ts2
 # include: TypoScriptObjects/**/*.ts2
