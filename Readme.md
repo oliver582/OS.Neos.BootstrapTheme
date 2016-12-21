@@ -38,11 +38,10 @@ Composer command
       composer require "os/neos-bootstraptheme"
 ```
 
-Use
+Inside your site 'Resources/Sites/my.site/Resources/Private/Typoscript/Root.ts2 add the line
 ```
       include: resource://OS.Neos.BootstrapTheme/Private/TypoScript/Root.ts2
 ```
-in your Root.ts2 
 
 ---
 
